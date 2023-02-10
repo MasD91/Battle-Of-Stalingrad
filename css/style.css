@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 1000px;
+    background-image: url();
   }
   
   header {
@@ -21,9 +22,26 @@ body {
   h1 {
     color: #C50416;
     text-shadow: 1px 1px orange;
+    font-size: 100px;
+  }
+
+  h2{
+    text-align: center;
+    color: #C50416;
+    text-shadow: 1px 1px orange;
+    margin-top: 70px;
   }
   
+  p {
+    text-align-last: left;
+    padding: 25px;
+    text-align: left;
+  }
   
+#copyright > p{
+  text-align: center;
+}
+
   nav {
     display: flex;
     justify-content: center;
@@ -46,7 +64,7 @@ body {
   footer {
     background-color: lightgray;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     left: 0;
