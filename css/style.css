@@ -18,6 +18,10 @@ body {
       align-items: center;
   }
 
+  h1 {
+    color: #C50416;
+    text-shadow: 1px 1px orange;
+  }
   
   
   nav {
