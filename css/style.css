@@ -3,7 +3,13 @@ body {
     margin: 0;
     padding: 0;
     height: 1000px;
-    background-image: url();
+    background-color: gray;
+    background: url(/assets/gallery/Joseph-Stalin..jpg) center right, url(/assets/gallery/Adolf-Hitler.jpg) center left;
+    background-size: 667px, 696px;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: bottom right, bottom left;
+    margin-bottom: -100px;
   }
   
   header {
@@ -36,11 +42,11 @@ body {
     text-align-last: left;
     padding: 25px;
     text-align: left;
+    background-color: lightgray;
+    
   }
   
-#copyright > p{
-  text-align: center;
-}
+
 
   nav {
     display: flex;
