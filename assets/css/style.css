@@ -6,7 +6,7 @@ body {
     background-color: #80808054;  }
   
   header {
-    background-image: url(/assets/gallery/header.jpg);
+    background-image: url(../gallery/header.jpg);
     background-color: #80808054;
     padding: 40px;
     text-align: center;
