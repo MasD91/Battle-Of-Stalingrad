@@ -99,4 +99,12 @@ table {
     right: 0;
 
   }
+
+  .img-responsive.image-resize {
+    height: 300px;
+    object-fit: cover;
+    width: 350px;
+    
+    
+  }
   
