@@ -24,15 +24,15 @@ body {
     
   
   h1 {
-    color: black;
-    text-shadow: -3px -3px #ff0000;
+    color: #D50303;
+    text-shadow: -3px -3px #ffffff;
     font-size: 100px;
   }
 
   h2{
     text-align: center;
-    color: #042E7F;
-    text-shadow: 1px 1px #ff0000;
+    color: #D50303;
+    text-shadow: -1px -1px #ffffff;
     margin-top: 70px;
     font-size: 3em;
   }
@@ -64,13 +64,9 @@ table {
   }
 
   #video {
-    position: absolute;
-    top: 110%;
-    left: 75%;
-    transform: translate(-110%, -75%);
-    border-radius: 10px 10px;
-    z-index: -1;
     
+    border-radius: 10px 10px;
+    margin-top: 5%;
   }
 
   nav {
