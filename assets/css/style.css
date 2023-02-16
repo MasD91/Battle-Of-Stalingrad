@@ -45,9 +45,7 @@ body {
     
   }
   
-#copyright {
-  color: #C50416;
-}
+
 
 table {
   border-collapse: collapse;
@@ -97,6 +95,13 @@ table {
     bottom: 0;
     left: 0;
     right: 0;
+
+  }
+
+  #links {
+    padding-left: 500px;
+    color: #C50416;
+    padding: 50px;
 
   }
 
