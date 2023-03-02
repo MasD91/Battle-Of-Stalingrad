@@ -44,6 +44,12 @@ body {
     margin-bottom: -10px;
   }
 
+fieldset {
+  display: flex;
+  padding-inline-start: 25px;
+  border-style: groove;
+  border-radius: 10px;
+}
   p {
     text-align-last: left;
     padding: 25px;
