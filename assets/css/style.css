@@ -121,4 +121,39 @@ height: 300px;
 object-fit: cover;
 width: 350px;
 }
-  
+
+/* Main Mobile First goes under here and is normally anything
+   that you want to be painted as under 576px */
+/* Also contains default CSS reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* From here at bottom of CSS File
+   we have our media queries using min-width
+   only */
+@media (min-width: 576px) {
+    /* all our media queries that we want to take affect
+	   from 576px and up go here and this is normally for screens of
+	   small to medium sizes */
+}
+
+@media (min-width: 768px) {
+    /* all our media queries that we want to take affect
+	   from 768px and up go here and this is normally for screens of
+	   medium to large sizes */
+}
+
+@media (min-width: 992px) {
+    /* all our media queries that we want to take affect
+	   from 992px and up go here and this is normally for screens of
+	   large to extra large sizes */
+}
+
+@media (min-width: 1200px) {
+    /* all our media queries that we want to take affect
+	   from 1200px and up go here and this is normally for screens of
+	   extra large sizes and up */
+}
