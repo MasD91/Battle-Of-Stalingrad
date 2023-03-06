@@ -78,6 +78,10 @@ padding: 8px;
 text-align: left;  
 }
 
+#tableleft{
+font-weight: bold;
+}
+
 #video {
 border-radius: 10px 10px;
 margin-top: 5%;
@@ -104,6 +108,10 @@ display: block;
 padding-right: 10px;
 }
 
+#age {
+    max-width: 165px;
+}
+
 footer {
 background-color: lightgray;
 text-align: center;
@@ -112,6 +120,10 @@ position: sticky;
 bottom: 0;
 left: 0;
 right: 0;
+}
+
+#signupfooter {
+position: fixed;
 }
 
 #links {
