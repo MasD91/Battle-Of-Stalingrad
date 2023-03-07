@@ -134,7 +134,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. From this page you will be able to deploy the website once you enter the "source" to be "deploy from branch" and the branch to be "main" in the first box and "/root" in the second.
 6. Give the page a few minutes to load the link which appears at the top of the page.
 
-[<a href="">](https://github.com/MasD91/Battle-Of-Stalingrad/issues/1#issue-1613780474)
+![gitpages](https://user-images.githubusercontent.com/119848497/223483656-2a4a4d39-34d9-42a3-9fb6-7a3cab239ad3.jpg)
 
 ### Forking the GitHub Repository
 
