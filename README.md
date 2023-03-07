@@ -177,11 +177,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+- Majority of the code was written by the developer.
 
 ### Content
 
@@ -191,10 +187,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   Hitler image was taken from here https://www.britannica.com/list/9-things-you-might-not-know-about-adolf-hitler
+-   Staling image was taken from here https://www.britannica.com/biography/Joseph-Stalin
+-   German surrender image was taken from here http://www.nww2m.com/2013/02/70th-anniversary-of-the-german-defeat-at-stalingrad/
+-   Youtube video was taken from here https://www.youtube.com/watch?v=5PGxUfdrnk4&ab_channel=vladimirgaming
+-   Header image was taken from here https://en.wikipedia.org/wiki/Battle_of_Stalingrad
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
+-   My Mentor, Dario, helped me a lot along the way.
+-   A developer friend, Ainsely Chang, also was very helpful.
 -   Tutor support at Code Institute for their support.
