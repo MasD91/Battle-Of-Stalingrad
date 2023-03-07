@@ -121,6 +121,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   On the iPad tablet, the footer doesn't stay at the bottom of the page but stays under the content.
 
+![Footer-Position](https://user-images.githubusercontent.com/119848497/223485548-ce2b2c5d-304a-4418-be70-66e2f0069572.jpg)
+
+
 ## Deployment
 
 ### GitHub Pages
