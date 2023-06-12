@@ -2,93 +2,82 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sign up now!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up now!</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<div style="text-align: center;">
 
-	
-	<header>
-		<h1>BATTLE OF STALINGRAD</h1>
-	  </header>
+<body>
+  <div style="text-align: center;">
+    <header>
+      <h1>BATTLE OF STALINGRAD</h1>
+    </header>
 
-	  
-  
-	  <nav>
-		<ul>
-		  <li><a href="index.html"><strong>Background</strong></a></li>
-		  <li><a href="course.html"><strong>Course of the Battle</strong></a></li>
-		  <li><a href="conclusion.html"><strong>Conclusion</strong></a></li>
-		  <li><a href="signup.html"><strong>Sign up</strong></a></li>
-		</ul>
-	  </nav>
-	</div>
-	<form action="https://formdump.codeinstitute.net/" method="POST">
+    <nav>
+      <ul>
+        <li><a href="index.html"><strong>Background</strong></a></li>
+        <li><a href="course.html"><strong>Course of the Battle</strong></a></li>
+        <li><a href="conclusion.html"><strong>Conclusion</strong></a></li>
+        <li><a href="signup.html"><strong>Sign up</strong></a></li>
+      </ul>
+    </nav>
+  </div>
 
-		<h2>SIGN UP</h2>
+  <form action="https://formdump.codeinstitute.net/" method="POST">
+    <h2>SIGN UP</h2>
+    <p id="signupinfo">SIGN UP HERE TO SUBSCRIBE TO OUR WEEKLY E-NEWSLETTER</p>
 
-		<p id="signupinfo"> SIGN UP HERE TO SUBSCRIBE TO OUR WEEKLY E-NEWSLETTER</p>
-	
-	<fieldset>
-		
-		<legend>Your details</legend>
+    <fieldset>
+      <legend>Your details</legend>
+      <div>
+        <label for="name-field">Name</label>
+        <br>
+        <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+      </div>
+      <br>
+      <div>
+        <label for="email-field">Email</label>
+        <br>
+        <input id="email-field" type="email" name="email" placeholder="Your email" required>
+      </div>
+      <br>
+      <label for="age">Age</label>
+      <select id="age" name="age" required>
+        <option value="">Under 18</option>
+        <option value="18-29">18-29</option>
+        <option value="30-39">30-39</option>
+        <option value="40-49">40-49</option>
+        <option value="50-59">50-59</option>
+        <option value="60+">60+</option>
+      </select>
+      <br>
+    </fieldset>
 
-		<div>
-			<label for="name-field">Name</label>
-			<br>
-			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-		</div>
-		<br>
-		<div>
-			<label for="email-field">Email</label>
-			<br>
-			<input id="email-field" type="email" name="email" placeholder="Your email" required>
-		</div>
-		<br>
+    <fieldset>
+      <legend>Feedback</legend>
+      <label for="feedback">How can we improve your experience with us?</label>
+      <br>
+      <textarea id="feedback" rows="4" cols="25" name="feedback"></textarea>
+      <br>
+    </fieldset>
 
-		<label for="age">Age</label>
-		
-		<select id="age" name="age" required>
-			<option value="">Under 18</option>
-			<option value="18-29">18-29</option>
-			<option value="30-39">30-39</option>
-			<option value="40-49">40-49</option>
-			<option value="50-59">50-59</option>
-			<option value="60+">60+</option>
-		</select>
-		<br>
+    <br>
+    <input type="submit" value="Subscribe">
+    <input type="reset" value="Reset Form">
+  </form>
 
-	</fieldset>
+  <footer id="signupfooter">
+    <div style="text-align:center;">
+      <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.twitter.com/" rel="noopener" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+      <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+    </div>
+  </footer>
 
-		
-		<fieldset>
-			<legend>Feedback</legend>
-			<label for="feedback">How can we improve your experience with us?</label>
-			<br>
-			<textarea id="feedback" rows="4" cols="25" name="feedback">
-			</textarea>
-		<br>
-		</fieldset>
-        
-		<br>
-		
-		<input type="submit" value="Subscribe">
-	
-		<input type="reset" value="Reset Form">
-
-	</form>
-	<footer id="signupfooter">
-		<div style="text-align:center;">
-		  <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>&nbsp;&nbsp;&nbsp;
-		  <a href="https://www.twitter.com/" rel="noopener" target="_blank"> <i class="fa-brands fa-square-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-		  <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
-		</div>
-	</footer>
-	<script src="https://kit.fontawesome.com/ceb7a77ac8.js" crossorigin="anonymous"></script>	
+  <script src="https://kit.fontawesome.com/ceb7a77ac8.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
