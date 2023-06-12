@@ -14,6 +14,8 @@ This is my HTML & CSS project. I created it to be simple yet informative and to 
 
         1. First time visitors should be able to see that the purpose of this page is to educate and inform.
         2. They should also be to easily navigate through the different pages internally and externally.
+![Image Description](/workspace/Battle-Of-Stalingrad/assets/gallery/nav-bar.jpg)
+
 
     -   #### Returning Visitor Goals
 
